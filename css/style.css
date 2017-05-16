@@ -1,0 +1,454 @@
+/* Foxolabs.Inc */
+/* Style sheet created*/
+/* TEMPLATE STYLES */
+/* Necessary for full page carousel*/
+
+/*danger-color
+#ff4444
+danger-color-dark
+#CC0000
+elegant-color
+#2E2E2E
+elegant-color-dark
+#212121
+secondary-color
+#aa66cc
+secondary-color-dark
+#9933CC*
+success-color
+#00C851
+success-color-dark
+#007E33
+*/
+
+
+html,
+body {
+  height: 100%;
+  font-family:"Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  background: #fff;
+}
+
+/* Scrolling navbar for the side scroll*/
+.scrolling-navbar {
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+/*add the responsive typography font*/
+
+/* ******************************************/
+/* Navigation*/
+/* ******************************************/
+
+.navbar-nav {
+	font-weight: bold;
+  font-family:"Open Sans", Arial, sans-serif;
+} 
+
+.navbar-brand {
+	font-weight: bold!important;
+	font-size: 24px;
+	font-color:#FFEA00;
+}
+
+.fa-home {
+  color: #800080;
+  font-size: 34px;
+}
+
+.navbar-toggler {
+	color: #fff;
+	border: 1px solid #fff!important;
+	padding: 2px;
+}
+
+.nav1 {
+  font-size: 16px;
+}
+/*adding padding to the navbar list items*/
+
+
+/*Caption*/
+
+@media (min-width: 779px){
+   	
+.navbar-brand {
+  font-weight: bold!important;
+  font-color: #fff!important;
+}
+
+.navbar {
+  padding: 5px;
+}
+
+.navbar li {
+  margin-left : 1em;
+  margin-right : 1em;
+}
+
+.top-nav-collapse {
+	background-color: #FAFAFA;
+	color: #fff;
+	text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+.navbar {
+  background-color: #00FFFF;
+  font-family: "Open Sans", Arial, sans-serif ;
+}
+  .navbar {
+		background-color: #fff;
+   	color: #fff;
+	}
+	
+}
+
+/* Carousel*/
+.carousel {
+	height: 70%;
+}
+
+
+@media (max-width: 776px) {
+	.carousel {
+		height: 100%;
+	}
+}
+
+.carousel-item,
+.active {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+
+
+/* card general properties */
+.foxo-card{
+  max-height: 700px;
+}
+
+/*card-title general properties */
+
+.card {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.foxo-subheader h3{
+  font-weight: bold;
+}
+
+
+
+/* ******************************************/
+/* foxo-cross platform*/
+/* ******************************************/
+
+.card-image {
+  height: 100%;
+  width: 100%;
+}
+
+.card-col {
+  padding: 20px;
+}
+
+@media (max-width: 776px) {
+  .foxo-subheader {
+  padding-bottom:20px;  }
+}
+
+
+@media (min-width: 778px) {
+ .foxo-subheader {
+  padding:  40px;  }
+}
+
+
+
+.service-icon {
+  padding: 40px;
+  text-align: center;
+}
+
+/* ******************************************/
+/* foxo-contactus section*/
+/* ******************************************/
+
+
+.foxo-contact {
+  font-family:"Open Sans", Arial, sans-serif!important;
+  padding-bottom: 80px;
+}
+
+.appdev-content {
+  padding: 20px;
+}
+
+
+
+/* ******************************************/
+/* foxo-footer section*/
+/* ******************************************/
+
+@media (max-width: 776px) {
+  #foxo-footer {
+  padding: 40px; 
+  text-align: center; }
+}
+
+
+@media (min-width: 778px) {
+  #foxo-footer {
+  padding: 100px;  }
+}
+
+
+#foxo-footer {
+  font-family:"Open Sans", Arial, sans-serif!important;
+  background-color: #212121;
+  font-size: 16px;
+}
+
+#foxo-footer h5 {
+  font-weight: bold;
+
+}
+
+.footer-sub-head h5 {
+  font-weight: bold!important;
+}
+
+#foxo-footer .foxo-footer-links li a {
+color: #727272;
+text-decoration: none;
+}
+
+
+/*copy right section */
+
+@media (max-width: 776px) {
+  .copyright {
+  padding: 20px;  }
+}
+
+
+@media (min-width: 778px) {
+  .copyright {
+  padding: 60px;  }
+}
+
+.copyright {
+  font-size: 15px!important;
+}
+
+ .foxo-social-icons {
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+.foxo-social-icons img {
+  width: 10%;
+  height: 10%;
+
+}
+
+.copyright ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#foxo-footer .copyright a {
+color: #ff4444;
+text-decoration: none!important;
+}
+
+
+
+/*foxo-services-master section*/
+/* ******************************************/
+/* ******************************************/
+/* master section for the rest of the serviices section 
+/* foxo-services*/
+/* ******************************************/
+
+
+@media (max-width: 776px) {
+  .foxo-services-master {
+  padding: 80px;  }
+}
+
+
+@media (min-width: 778px) {
+  .foxo-services-master {
+  padding: 100px;  }
+}
+
+
+.foxo-services-master {
+  font-family:"Open Sans", Arial, sans-serif!important;
+  background-color: #ffffff;
+}
+
+.panel-service {
+  padding: 40px;
+  line-height: 32px;
+}
+
+
+
+@media (max-width: 777px) {
+  .foxo-services-master img {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+}
+
+
+@media (min-width: 778px) {
+  .foxo-services-master img {
+  height: 80%;
+  width: 80%;
+  padding: 20px;
+}
+}
+
+
+
+.foxo-services-master {
+  font-family:"Open Sans", Arial, sans-serif!important;
+}
+
+.foxo-mobile {
+  font-family:"Open Sans", Arial, sans-serif!important;
+  background-color: #E6E6FA;
+
+}
+
+
+/*service panel icon effect font awesome*/
+.service-fa {
+  color: #9370DB;
+  
+  font-size: 44px;
+}
+
+
+/*foxo mobile master section*/
+
+
+@media (max-width: 776px) {
+  .foxo-mobile {
+  padding-top:40px; 
+  padding-bottom:40px; 
+  text-align: center; }
+}
+
+
+@media (min-width: 778px) {
+ .foxo-mobile {
+  padding-top: 80px;
+  padding-bottom: 80px; 
+  text-align: center;  }
+}
+
+
+.foxo-mobile-sec1 {
+  padding-bottom: 60px;
+  font-family:"Open Sans", Arial, sans-serif!important;
+}
+
+
+.foxo-mobile-sec {
+  padding: 40px;
+  background-color: #9370db;
+}
+
+.foxo-mobile-sec img {
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.service-sub-sec {
+  padding: 40px;
+  background-color: ;
+
+}
+
+.service-sub-sec:hover {
+  background-color: #e1bee7;
+  color: #ffffff;
+}
+
+.foxo-hover-inverse {
+  padding: 40px;
+}
+
+.foxo-hover-inverse:hover {
+  padding: 40px;
+  color:#fff;
+  background-color: #9370DB;
+}
+
+.foxo-services-platform  {
+  background-color: #FFEA00; 
+}
+
+.foxo-services {
+  background-color: #FFEA00; 
+}
+  
+@media (max-width: 776px) {
+  .foxo-services-platform  {
+  padding:40px; 
+}
+
+
+@media (min-width: 778px) {
+ .foxo-services-platform  {
+  padding:80px;}
+}
+
+
+/*list items to be aligned properly with fontawesome*/
+
+ 
+
+ .foxo-list-ul > ul{
+      list-style-type: none;
+   }
+
+.foxo-list-ul > li  {
+       position: relative; /* Will help curtail overlap */
+      padding-left: 20px; /* Reserves a space for the square dot */
+    }
+
+  .foxo-list-ul > li:before {   
+       position: absolute;
+       left: 0; /* Places the square dot at the space created by the LI padding */
+     }
+
